@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="tac.css">
+</head>
+
+    <body>
+            <h1>TIC-TAC-TOE</h1>
+            <ul id="game">
+                <!-- first row -->
+                <li position="0,0"></li>
+                <li position="0,1"></li>
+                <li position="0,2"></li>
+                <!-- second row -->
+                <li position="1,0"></li>
+                <li position="1,1"></li>
+                <li position="1,2"></li>
+                <!-- third row -->
+                <li position="2,0"></li>
+                <li position="2,1"></li> 
+                <li position="2,2"></li>
+            </ul>
+            
+            <button id="reset">Reset Game</button>
+
+            <div id="messages">
+                <span class="player-x-win">🎉Player X Wins🎉</span>
+                <span class="player-o-win">🎉Player O Wins🎉</span>
+                <span class="draw">⚡Draw Game⚡</span>
+            </div>
+            
+                <h2 id="Edit">Who's Turn?</h2>
+                <div id="whos-turn">
+                    <span class="x">PLAYER X</span>
+                    <span class="o">PLAYER O</span>
+                </div>
+        <script src = "toe.js"></script>
+        
+    </body>
+</html>
