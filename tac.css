@@ -1,0 +1,101 @@
+body {
+    margin-top: 40px;
+    background: #0D0A0B;
+    color: #ffffff;
+    font-family: 'Redressed', cursive;
+    text-align:center;
+}
+
+h1 {
+    font-size: 50px;
+    color: #FF005C;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#game {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+#game > li {
+    float: left;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #cccccc;
+    border-right: 1px solid #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#game > li.x {
+    font-size: 40px;
+    color: #FFF600;
+    font-weight: bold;
+}
+
+#game > li.o {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#turns {
+    text-align:center;
+    margin-top: 50px;
+}
+
+#whos-turn > span,
+#messages > span {
+    display: none;
+}
+
+#whos-turn.x span.x,
+#whos-turn.o span.o, 
+#messages.player-x-win > span.player-x-win, 
+#messages.player-o-win > span.player-o-win,
+#messages.draw > span.draw {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+}
+
+#reset {
+    text-align: center;
+        border: none;
+        padding: 10px;
+        background: #F21B3F;
+        color: #ffffff;
+        font-size: 15px;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        margin: 3px 2px;
+        border-radius: 2px;
+}
+
+#reset:hover {
+        opacity: 0.6;
+}
+
+#messages{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Sacramento', cursive !important;
+}
+
+ #Edit{
+    margin-top: 50px;
+}
